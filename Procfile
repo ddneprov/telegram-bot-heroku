@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp build/staging:build/staging/* com.pengrad.Main
+bot: java $JAVA_OPTS -cp build/staging:build/staging/* com.pengrad.Main

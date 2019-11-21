@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9c01ce-87e3-4ca6-ab3e-3c84c978baf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pengrad/MyBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pengrad/Main$Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pengrad/Main$Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pengrad/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pengrad/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/pengrad/TestTelegramBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/pengrad/TestTelegramBot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pengrad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pengrad/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pengrad/TestTelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pengrad/TestTelegramBot.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574347423082</updated>
       <workItem from="1574347426815" duration="207000" />
-      <workItem from="1574350142062" duration="6046000" />
+      <workItem from="1574350142062" duration="6428000" />
     </task>
     <servers />
   </component>
