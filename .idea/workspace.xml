@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9c01ce-87e3-4ca6-ab3e-3c84c978baf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pengrad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pengrad/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +78,7 @@
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
-        <env name="PORT" value="8080" />
+        <env name="PORT" value="60" />
         <env name="APP_URL" value="https://tinkoffbot.herokuapp.com" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.pengrad.Main" />
@@ -133,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574347423082</updated>
       <workItem from="1574347426815" duration="207000" />
-      <workItem from="1574350142062" duration="6428000" />
+      <workItem from="1574350142062" duration="6758000" />
     </task>
     <servers />
   </component>

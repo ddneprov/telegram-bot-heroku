@@ -21,6 +21,7 @@ public class Main {
 
         ApiContextInitializer.init();
 
+
         TelegramBotsApi botsApi = new TelegramBotsApi();
 
         try {
@@ -30,8 +31,23 @@ public class Main {
             e.printStackTrace();
         }
 
-
+        // current app url to set webhook
+        // should be set via heroku config vars
+        // https://devcenter.heroku.com/articles/config-vars
+        // heroku config:set APP_URL=https://app-for-my-bot.herokuapp.com
+        // heroku config:set APP_URL=https://tinkoffbot.herokuapp.com
         final String appUrl = System.getenv("APP_URL");
+
+        // define list of bots
+        /*BotHandler[] bots = new BotHandler[]{
+                new TestTelegramBot()
+        };*/
+
+        // set bot to listen https://my-app.heroku.com/BOTTOKEN
+        // register this URL as Telegram Webhook
+
+
+
 
     }
 
