@@ -6,7 +6,7 @@ import com.pengrad.telegrambot.request.SendMessage;
 
 public class TestTelegramBot extends BotHandler {
 
-    private static final String TOKEN = "this-is-my-token";
+    private static final String TOKEN = "901390376:AAFvPmf4_RXMCwMQvgYOFKu5H5YPtGlfSso";
     private final TelegramBot bot = new TelegramBot(TOKEN);
 
     @Override
