@@ -16,11 +16,21 @@ task stage(type: Copy) {
 stage.dependsOn build
 
 dependencies {
-    compile 'com.sparkjava:spark-core:2.7.2'
+    //compile 'com.sparkjava:spark-core:2.7.2'
+    compile 'com.sparkjava:spark-core:2.9.1'
+
     compile 'com.github.pengrad:java-telegram-bot-api:3.6.0'
 
+    //compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.26'
+    //testCompile group: 'org.slf4j', name: 'slf4j-log4j12', version: '1.7.29'
+    //testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.28'
 
-    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
-    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
+    compile "org.slf4j:slf4j-api:1.6.1"
+    compile "org.slf4j:slf4j-simple:1.6.1"
+
+
+
+
+
 
 }
