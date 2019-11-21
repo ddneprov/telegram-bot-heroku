@@ -19,7 +19,8 @@ public class Main {
         // should be set via heroku config vars
         // https://devcenter.heroku.com/articles/config-vars
         // heroku config:set APP_URL=https://app-for-my-bot.herokuapp.com
-        final String appUrl = System.getenv("APP_URL");
+        // heroku config:set APP_URL=https://tinkoffbot.herokuapp.com
+        final String appUrl = System.getenv("https://tinkoffbot.herokuapp.com");
 
         // define list of bots
         BotHandler[] bots = new BotHandler[]{

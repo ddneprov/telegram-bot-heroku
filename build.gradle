@@ -18,4 +18,9 @@ stage.dependsOn build
 dependencies {
     compile 'com.sparkjava:spark-core:2.7.2'
     compile 'com.github.pengrad:java-telegram-bot-api:3.6.0'
+
+
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    testCompile group: 'org.slf4j', name: 'slf4j-simple', version: '1.6.1'
+
 }
