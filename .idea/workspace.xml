@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9c01ce-87e3-4ca6-ab3e-3c84c978baf1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pengrad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pengrad/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pengrad/Request.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574347423082</updated>
       <workItem from="1574347426815" duration="207000" />
-      <workItem from="1574350142062" duration="6758000" />
+      <workItem from="1574350142062" duration="6985000" />
     </task>
     <servers />
   </component>

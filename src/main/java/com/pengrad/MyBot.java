@@ -11,18 +11,14 @@ import java.net.URL;
 
 public class MyBot extends TelegramLongPollingBot {
 
+    private Request request;
+    public MyBot(){
+        request = new Request();
+    }
 
     @Override
     public void onUpdateReceived(Update update) {
-        SendMessage sendMessage = new SendMessage();
-        sendMessage.enableMarkdown(true);
-        sendMessage.setChatId(update.getMessage().getChatId().toString());
-        try {
-            sendMessage.setText(("messageTex"));
-            execute(sendMessage);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        sendMsg(update.getMessage().getChatId().toString(), update.getMessage().getText());
     }
 
     @Override
@@ -33,5 +29,47 @@ public class MyBot extends TelegramLongPollingBot {
     @Override
     public String getBotToken() {
         return "901390376:AAFvPmf4_RXMCwMQvgYOFKu5H5YPtGlfSso";
+    }
+
+    private void sendMsg(String chatId, String messageText) {
+        SendMessage sendMessage = new SendMessage();
+        sendMessage.enableMarkdown(true);
+        sendMessage.setChatId(chatId);
+        try {
+            sendMessage.setText(translate(messageText));
+            execute(sendMessage);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private String translate(String messageText) throws IOException {
+        String inputLine;
+        StringBuilder response = new StringBuilder();
+        String urlStr = request.getRequest(makeWordCorrect(messageText));
+        URL url = new URL(urlStr);
+        BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+        while ((inputLine = in.readLine()) != null) {
+            response.append(inputLine);
+        }
+        in.close();
+        String res = findWord(response.toString());
+        return res;
+    }
+
+    private String makeWordCorrect(String messageText){
+        return messageText.replace(' ', '%');
+    }
+
+
+    private String findWord(String message){
+        StringBuilder stringBuilder = new StringBuilder(message);
+        String result = "";
+        int index = stringBuilder.indexOf("<text>");
+        stringBuilder = new StringBuilder(stringBuilder.substring(index+6));
+        index = stringBuilder.indexOf("</text>");
+        result = stringBuilder.substring(0, index);
+        result = result.replace('%', ' ');
+        return result;
     }
 }
