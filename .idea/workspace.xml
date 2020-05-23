@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9c01ce-87e3-4ca6-ab3e-3c84c978baf1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/telegram-bot-heroku.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1f9c01ce-87e3-4ca6-ab3e-3c84c978baf1" name="Default Changelist" comment="change code">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pengrad/MyBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pengrad/MyBot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +131,7 @@
       <updated>1574347423082</updated>
       <workItem from="1574347426815" duration="207000" />
       <workItem from="1574350142062" duration="7162000" />
-      <workItem from="1590227014956" duration="1071000" />
+      <workItem from="1590227014956" duration="1310000" />
     </task>
     <task id="LOCAL-00001" summary="edit name&#10;check deploy">
       <created>1590227232681</created>
@@ -142,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590227232681</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change code">
+      <created>1590251999807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1590251999807</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,17 +168,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edit name&#10;check deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit name&#10;check deploy" />
+    <MESSAGE value="change code" />
+    <option name="LAST_COMMIT_MESSAGE" value="change code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1590251886703">
+    <state x="434" y="127" key="CommitChangelistDialog2" timestamp="1590252077731">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1590251886703" />
-    <state x="168" y="94" key="DiffContextDialog" timestamp="1590227206736">
+    <state x="434" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1590252077731" />
+    <state x="168" y="94" key="DiffContextDialog" timestamp="1590251990308">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590227206736" />
+    <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1590251990308" />
     <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1590227234852">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
